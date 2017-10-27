@@ -1,6 +1,16 @@
-$ = jQuery = require('jquery');
+import $ from 'jquery';
+import React from 'react';
+import render from 'react-dom';
 
-const App = console.log('Hello world from Browserify');
+import HomePage from './components/HomePage';
 
+class App extends React.Component {
 
-module.exports = App;
+    render() {
+        return (
+            <HomePage />
+        );
+    }
+}
+
+render(<App />, document.getElementById('root'));

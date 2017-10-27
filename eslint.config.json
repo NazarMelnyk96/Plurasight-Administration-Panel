@@ -15,7 +15,12 @@
     "no-unused-vars": 0,
     "no-underscore-dangle": 0,
     "no-alert": 0,
-    "no-lone-blocks": 0
+    "no-lone-blocks": 0,
+    "sort-imports": [["error"], {
+      "ignoreCase": false,
+      "ignoreMemberSort": false,
+      "memberSyntaxSortOrder": ["none", "all", "multiple", "single"]
+    }]
   },
   "parserOptions": {
     "ecmaVersion": 6,

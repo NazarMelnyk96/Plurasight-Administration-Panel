@@ -10,7 +10,8 @@
   "env": {
     "es6": true,
     "browser": true,
-    "jquery": true
+    "jquery": true,
+    "jest": true
   },
   "rules": {
     "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],

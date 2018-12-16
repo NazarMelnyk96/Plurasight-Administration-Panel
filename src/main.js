@@ -1,6 +1,5 @@
-$ = jQuery = require('jquery');
+$ = jQuery = require('jquery'); // eslint-disable-line
 
-const App = console.log('Hello world from Browserify');
-
+const App = window.console.log('Hello world from Browserify');
 
 module.exports = App;

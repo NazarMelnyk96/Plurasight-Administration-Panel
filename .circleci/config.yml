@@ -20,3 +20,6 @@ jobs:
       - run: # run tests
           name: test
           command: npm test
+      - run: # run tests
+          name: eslint
+          command: npm run lint

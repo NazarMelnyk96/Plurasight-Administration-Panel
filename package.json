@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint --ext .jsx,.js src/ test/"
   },
   "author": "",
   "license": "ISC",
@@ -25,6 +26,11 @@
   },
   "devDependencies": {
     "gulp-eslint": "^0.15.0",
-    "jest": "^23.6.0"
+    "jest": "^23.6.0",
+    "eslint": "5.0.1",
+    "eslint-config-airbnb-base": "13.0.0",
+    "eslint-import-resolver-webpack": "0.10.1",
+    "eslint-plugin-import": "2.13.0",
+    "eslint-plugin-react": "7.10.0"
   }
 }

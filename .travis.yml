@@ -1,6 +1,7 @@
 language: node_js
 node_js:
   - "9.11.2"
+cache: bundler
 jobs:
   include:
     - stage: test

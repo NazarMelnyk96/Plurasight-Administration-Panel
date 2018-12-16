@@ -3,5 +3,7 @@ node_js:
   - "9.11.2"
 jobs:
   include:
+    - stage: test
+      script: npm test
     - stage: lint
       script: npm run lint
